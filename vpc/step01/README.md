@@ -23,7 +23,7 @@ Estimated time is 20 min.
 * Plan and Apply.
 * Confirm that the instance belongs to default Security Group (sg).
 
-Instance is automatically assigned default sg.
+Instance is automatically assigned to default sg.
   
 ## Security Group
 
