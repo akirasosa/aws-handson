@@ -38,3 +38,7 @@ ssh-add -K demo.pem
 ssh -A ec2-user@bastion_ip
 ssh ec2-user@private_ip
 ```
+
+## References
+
+* [aws_elb](https://www.terraform.io/docs/providers/aws/r/elb.html)

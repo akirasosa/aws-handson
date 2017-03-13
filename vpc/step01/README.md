@@ -50,7 +50,7 @@ ssh -i demo.pem ec2-user@instance_ip
 * Register it to Route Table.
 * Associate it with the subnet created.
 * Plan and Apply.
-* Confirm that it's accessible by http.
+* Confirm that it's accessible by ssh.
   
 ## Install Web Server
 
@@ -88,3 +88,11 @@ sudo chkconfig nginx on
 sudo chkconfig --list nginx
 ```
 
+## References
+
+* [aws_vpc](https://www.terraform.io/docs/providers/aws/r/vpc.html)
+* [aws_subnet](https://www.terraform.io/docs/providers/aws/r/subnet.html)
+* [aws_internet_gateway](https://www.terraform.io/docs/providers/aws/r/internet_gateway.html)
+* [aws_route_table](https://www.terraform.io/docs/providers/aws/r/route_table.html)
+* [aws_route_table_association](https://www.terraform.io/docs/providers/aws/r/route_table_association.html)
+* [aws_instance](https://www.terraform.io/docs/providers/aws/r/instance.html)
