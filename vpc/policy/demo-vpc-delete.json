@@ -15,7 +15,8 @@
         "ec2:DisassociateRouteTable",
         "ec2:ReleaseAddress",
         "ec2:TerminateInstances",
-        "elasticloadbalancing:DeleteLoadBalancer"
+        "elasticloadbalancing:DeleteLoadBalancer",
+        "elasticloadbalancing:DeregisterInstancesFromLoadBalancer"
       ],
       "Resource": [
         "*"

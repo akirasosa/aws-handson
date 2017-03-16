@@ -1,5 +1,5 @@
 resource "aws_instance" "web_a" {
-  ami = "ami-dc9339bf"
+  ami = "ami-56d4ad31"
   instance_type = "t2.micro"
   subnet_id = "${aws_subnet.public_a.id}"
   associate_public_ip_address = true
