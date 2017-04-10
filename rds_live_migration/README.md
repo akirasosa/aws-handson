@@ -89,7 +89,7 @@ It fails. It requires more config.
 ## Configure OpenVPN Server
 
 ```bash
-open https://[public_ip]/admin:443
+open https://[public_ip]:943/admin
 ```
 
 1. Check "VPN Settings - Dynamic IP Address Network - Network Address and mask".
